@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    border: 3px solid black;
+    height: 30rem;
+    width: 27rem;
+    margin: 8%;
+    border-radius: 20px;
+    background-color: white;
+}
+/* @media(min-width: 100px) and (max-width: 500px){
+    .login{
+        width: 70%;
+        height: 30rem;
+    }
+} */
+.loginname{
+    text-align: center;
+    padding-top: 28px;
+    margin-bottom: 3rem;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 128, 210);
+}
+#username{
+    padding: 0.6rem 11rem 0.6rem 1rem;
+    margin: 8px 20px 15px 20px;
+    border-radius: 0.5rem;
+    font-size: 16px;
+}
+.remember{
+    margin-left: 20px;
+}
+.linediv{
+    display: flex;
+}
+#forget{
+    padding-left: 7.8rem;
+    color: blue;
+    font-weight: 550;
+
+}
+.linediv{
+    font-size: 16px;
+}
+#submitlogin{
+    color: white;
+    background-color: rgb(111, 115, 238);
+    width: 92%;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.signup{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#sign{
+    color: blue;
+}
+.or{
+    text-align: center;
+}
+.divphoto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.fb{
+   background-image: url("photos/fb.png");
+   background-size: contain;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   margin-left: 15px;
+   border-radius: 50%;
+   margin-top: 25px;
+   
+}
+.google{
+   background-image: url("photos/google.png");
+   background-size: contain;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   margin-left: 15px;
+   border-radius: 50%;
+   margin-top: 25px;
+}
+.github{
+   background-image: url("photos/github.png");
+   background-size: contain;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   margin-left: 15px;
+   border-radius: 50%;
+   margin-top: 25px;
+}

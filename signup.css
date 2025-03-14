@@ -76,7 +76,7 @@ body{
     width: 100%;
 }
 .fb{
-   background-image: url("photos/fb.png");
+   background-image: url("fb.png");
    background-size: contain;
    width: 40px;
    height: 40px;
@@ -87,7 +87,7 @@ body{
    
 }
 .google{
-   background-image: url("photos/google.png");
+   background-image: url("google.png");
    background-size: contain;
    width: 40px;
    height: 40px;
@@ -97,7 +97,7 @@ body{
    margin-top: 15px;
 }
 .github{
-   background-image: url("photos/github.png");
+   background-image: url("github.png");
    background-size: contain;
    width: 40px;
    height: 40px;
